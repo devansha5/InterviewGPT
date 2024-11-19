@@ -1,5 +1,4 @@
-import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import OpenAI from 'openai'; // Necessary import for OpenAI API usage.
 
 export const runtime = 'edge'; // Edge runtime is correct for this API.
 
