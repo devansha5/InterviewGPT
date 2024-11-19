@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://devansha5.github.io/InterviewGPT",
- "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "export": "next build && next export",
-  "start": "next start",
-  "lint": "next lint",
-  "deploy": "npm run export && gh-pages -d out"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "npm run export && gh-pages -d out"
+  },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "20.11.20",
