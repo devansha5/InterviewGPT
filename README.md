@@ -8,10 +8,14 @@ This project uses modern web technologies like Next.js, OpenAI GPT-4, and PDF.js
 
 Features
 
-📝 Resume Parsing: Upload your resume in PDF format, and the app tailors questions based on your experience.
-🎯 Behavioral Interview Prep: Practice answers to commonly asked behavioral questions.
-💻 Technical Challenges: Prepare for coding interviews, including LeetCode-style algorithmic problems.
-🚀 Real-Time Feedback: Leverage OpenAI’s GPT-4 model for intelligent and conversational interactions.
+📝 Resume Parsing: Upload your resume in PDF format, and the app tailors questions based on your experience
+
+🎯 Behavioral Interview Prep: Practice answers to commonly asked behavioral questions
+
+💻 Technical Challenges: Prepare for coding interviews, including LeetCode-style algorithmic problems
+
+🚀 Real-Time Feedback: Leverage OpenAI’s GPT-4 model for intelligent and conversational interactions
+
 Getting Started
 
 1. Clone the Repository
