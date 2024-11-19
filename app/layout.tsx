@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/react';
+import React from 'react';
 
 export const metadata: Metadata = {
   title: 'Interview GPT_DK',

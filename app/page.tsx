@@ -2,6 +2,8 @@
 
 import Image from 'next/image';
 import Wrapper from './components/Wrapper';
+import React from 'react';
+
 
 export default function Home() {
   return (
