@@ -2,11 +2,14 @@
   "name": "codebender-ai-nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://devansha5.github.io/InterviewGPT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.10",
@@ -31,5 +34,8 @@
     "remark-math": "^5.1.1",
     "tailwindcss": "^3.4.1",
     "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
