@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://devansha5.github.io/InterviewGPT",
-  "scripts": {
+ "scripts": {
   "dev": "next dev",
   "build": "next build",
+  "export": "next build && next export",
   "start": "next start",
   "lint": "next lint",
-  "export": "next build && next export",
   "deploy": "npm run export && gh-pages -d out"
 },
   "dependencies": {
