@@ -8,6 +8,9 @@ const nextConfig = {
       },
     ],
   },
+  output: "export", // This enables the static export mode for Next.js
+  assetPrefix: "./", // Ensures assets work correctly on GitHub Pages
+  trailingSlash: true, // Adds trailing slashes to routes (required for GitHub Pages)
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;
