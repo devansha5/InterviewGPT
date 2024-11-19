@@ -1,6 +1,67 @@
 {
   "version": 3,
   "middleware": {},
-  "functions": {},
+  "functions": {
+    "/api/chat/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/chat/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/301.js",
+        "server/app/api/chat/route.js"
+      ],
+      "name": "app/api/chat/route",
+      "page": "/api/chat/route",
+      "matchers": [
+        {
+          "regexp": "^/api/chat$",
+          "originalSource": "/api/chat"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "jCUc2l9i7fSwnpbOk5prN",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "utkPlz2x3bELK8L1R5XVtjR9LMntuo3Yfv3LgnOUVQU=",
+        "__NEXT_PREVIEW_MODE_ID": "db38a9a78f5a1b244fb14462b45624f1",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "2dadfea63625d83715816f0ddda5750222dc5930a766c410160fb7ec0966c06c",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "11a2c5dc2fa3efaf4173ac28bf75ce1e11916bbb6c07e910b6be5c918eaddec7"
+      }
+    },
+    "/api/scrapper/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/scrapper/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/301.js",
+        "server/app/api/scrapper/route.js"
+      ],
+      "name": "app/api/scrapper/route",
+      "page": "/api/scrapper/route",
+      "matchers": [
+        {
+          "regexp": "^/api/scrapper$",
+          "originalSource": "/api/scrapper"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "jCUc2l9i7fSwnpbOk5prN",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "utkPlz2x3bELK8L1R5XVtjR9LMntuo3Yfv3LgnOUVQU=",
+        "__NEXT_PREVIEW_MODE_ID": "db38a9a78f5a1b244fb14462b45624f1",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "2dadfea63625d83715816f0ddda5750222dc5930a766c410160fb7ec0966c06c",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "11a2c5dc2fa3efaf4173ac28bf75ce1e11916bbb6c07e910b6be5c918eaddec7"
+      }
+    }
+  },
   "sortedMiddleware": []
 }
