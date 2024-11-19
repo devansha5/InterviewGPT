@@ -1,6 +1,7 @@
 Interview GPT-DK
 
-interviewgpt-dk.vercel.app
+https://interviewgpt-dk.vercel.app
+
 
 Interview GPT-DK is your personalized AI-powered assistant designed to help you ace your interviews with confidence! Simply upload your resume in PDF format, and Bob the Interviewer will generate tailored questions to get you fully prepared for behavioral, technical, or coding interviews.
 
