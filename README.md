@@ -24,13 +24,11 @@ OPENAI_API_KEY=your_openai_api_key
 SCRAPINGANT_API_KEY=your_scrapingant_api_key
 3. Install Dependencies
 Run the following command to install all required dependencies:
-
 yarn
 4. Start the Development Server
 To launch the app locally, run:
-
 yarn dev
-Open your browser and go to http://localhost:3000 to see the app in action.
+5. Open your browser and go to http://localhost:3000 to see the app in action.
 
 How It Works
 
