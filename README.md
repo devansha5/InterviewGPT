@@ -5,7 +5,7 @@ Visit the site here: https://interviewgpt-dk.vercel.app
 
 InterviewGPT is your personalized AI-powered assistant designed to help you ace your interviews with confidence! Simply upload your resume in PDF format, and Bob the Interviewer will generate tailored questions to get you fully prepared for behavioral, technical, or coding interviews.
 
-This project uses modern web technologies like Next.js, OpenAI GPT-4, and PDF.js to deliver a seamless and intelligent interview preparation experience.
+This project uses web technologies: Next.js, OpenAI GPT-4, and PDF.js 
 
 
 
