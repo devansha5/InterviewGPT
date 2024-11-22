@@ -27,15 +27,19 @@ body {
 }
 
 .logoBox {
-  padding-top: 10px;
+  display: flex; /* Center content */
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 40vh; /* Adjust container height */
+  margin-bottom: 20px; /* Add spacing below the logo */
 }
 
 .logoBox img {
   margin: auto;
-}
-
-.logo {
-  margin: 10px;
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 1500px; /* Ensure the logo doesn't exceed the container */
+  max-height: 375px; /* Ensure the logo scales properly */
 }
 
 h1 {
